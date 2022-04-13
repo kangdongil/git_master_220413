@@ -9,6 +9,7 @@
 
 ### 0.3 Git을 배워야 하는 이유
 
+## 1. 프로젝트에서 Git 사용하기
 ### 1.0 프로젝트를 Git 트래킹하려면(Git 시작하기)
 - 로컬PC의 경우, Git을 설치한다
   - 자신이 사용하는 console에서 `git -v`으로 설치여부를 확인할 수 있다
@@ -31,7 +32,8 @@
 ### 1.2 이전 Commit 시점으로 RollBack하기
   - `git reset --hard HEAD(^)`
 
-### 3.1 GitHub에 프로젝트 올리기
+## 2. 프로젝트 GitHub에 올리기
+### 2.1 GitHub에 프로젝트 올리기
 - Git Respository 만들기
   - 
 - 프로젝트를 Respository에 올리기
@@ -39,14 +41,15 @@
 - Respository에 프로젝트의 최신버전 업데이트하기
   - `git push origin master` 또는 `git push origin main`
 
-### 3.1.1 GoormIDE에서 프로젝트를 GitHub에 올리기
+### 2.1.1 GoormIDE에서 프로젝트를 GitHub에 올리기
 
-### 3.1.2 상황별 문제해결법
+### 2.1.2 상황별 문제해결법
 - 원격저장소(remote origin)을 다시 설정하려면
 
-### 3.2 GitHub에 업로드된 프로젝트 다운로드 받기
+### 2.2 GitHub에 업로드된 프로젝트 다운로드 받기
 - `git clone [Repostiory_URL]`
 
-### 4.0 GitHub로 협업하기 - (1) 프로젝트 분업하고 합치기(Branch&Merge)
+## 3. GitHub로 개발 협업하기
+### 3.0 GitHub로 협업하기 - (1) 프로젝트 분업하고 합치기(Branch&Merge)
 
-### 4.1 GitHub로 협업하기 - (2) 버그 보고하고 수정하기(Issue)
+### 3.1 GitHub로 협업하기 - (2) 버그 보고하고 수정하기(Issue)
